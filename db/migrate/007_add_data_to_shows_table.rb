@@ -1,4 +1,4 @@
-class AddDataToShowsTable
+class AddDataToShowsTable < ActiveRecord::Migration[5.2]
   
   def change 
     add_column :shows, :day, :string 
